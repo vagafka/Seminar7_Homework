@@ -49,7 +49,7 @@ void ColumnAverage(int[,] matrix)
 
             //Console.Write(matrix[i, j]);
         }
-        aver = sum / matrix.GetLength(1);
+        aver = sum / matrix.GetLength(0);
         Console.Write($"{Math.Round(aver,2)} ");
         sum = 0;
 
